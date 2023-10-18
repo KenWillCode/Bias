@@ -31,7 +31,3 @@ Instructions for executing the project:
 
 After installing all libraries, execute the project by running "python3 bias.py" in the Project Folder directory.
 
-
-Link to Zoom cloud recording of narrated execution or view exsiting file:
----------------------------------------------------
-https://bates.zoom.us/rec/share/S1uteq8aU86DQX8nSdl2r0pcxQJI8p-qMyt4JUYtIwo_0FkSuu7Oa_z-xfPzekLi.MvqFT7MlNstkxNjK
