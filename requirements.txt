@@ -1,0 +1,21 @@
+# Dependencies for bias.py and bias2.py -- use Python 3.11
+#   python3.11 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# The pins below are only needed by the ORIGINAL bias.py, which calls seaborn
+# with positional x/y (only seaborn 0.11.x allows it). seaborn 0.11.2 in turn
+# needs pandas 1.x and matplotlib < 3.9, and pandas 1.5 needs numpy 1.x.
+# bias2.py also runs with current versions of every package.
+numpy<2
+pandas<2
+matplotlib<3.9
+seaborn==0.11.2
+scipy<1.14
+gensim<4.4
+requests
+beautifulsoup4
+rpaframework          # provides RPA.Tables
+nltk
+wordcloud
+alive-progress
+plotly<6              # interactive dashboard (bias2.py)
+openpyxl              # needed by DataFrame.to_excel
+levenshtein           # recommended by README
